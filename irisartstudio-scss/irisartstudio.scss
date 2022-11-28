@@ -18,6 +18,10 @@ $theme-colors: (
     "info": #FD905D,
 );
 
+// tooltip customization
+$tooltip-color:                     white;
+$tooltip-bg:                        #FD905D;
+
 // anchor tag customization
 $link-color:                              white;
 $link-hover-color:                        #E9D8A6;
@@ -25,6 +29,7 @@ $link-hover-color:                        #E9D8A6;
 // navbar customization
 $navbar-dark-hover-color:           #E9D8A6;
 $navbar-dark-brand-hover-color:           #E9D8A6;
+
 // font customization
 $font-family-sans-serif:      'Montserrat', sans-serif;
 

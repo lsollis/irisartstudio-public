@@ -4100,7 +4100,7 @@ textarea.form-control-lg {
     .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
       top: -1px;
       border-width: 0.4rem 0.4rem 0;
-      border-top-color: #000; }
+      border-top-color: #FD905D; }
 
 .bs-tooltip-end, .bs-tooltip-auto[data-popper-placement^="right"] {
   padding: 0 0.4rem; }
@@ -4111,7 +4111,7 @@ textarea.form-control-lg {
     .bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow::before {
       right: -1px;
       border-width: 0.4rem 0.4rem 0.4rem 0;
-      border-right-color: #000; }
+      border-right-color: #FD905D; }
 
 .bs-tooltip-bottom, .bs-tooltip-auto[data-popper-placement^="bottom"] {
   padding: 0.4rem 0; }
@@ -4120,7 +4120,7 @@ textarea.form-control-lg {
     .bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow::before {
       bottom: -1px;
       border-width: 0 0.4rem 0.4rem;
-      border-bottom-color: #000; }
+      border-bottom-color: #FD905D; }
 
 .bs-tooltip-start, .bs-tooltip-auto[data-popper-placement^="left"] {
   padding: 0 0.4rem; }
@@ -4131,14 +4131,14 @@ textarea.form-control-lg {
     .bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
       left: -1px;
       border-width: 0.4rem 0 0.4rem 0.4rem;
-      border-left-color: #000; }
+      border-left-color: #FD905D; }
 
 .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
-  color: #fff;
+  color: white;
   text-align: center;
-  background-color: #000;
+  background-color: #FD905D;
   border-radius: 0.25rem; }
 
 .popover {
