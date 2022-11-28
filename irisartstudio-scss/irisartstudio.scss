@@ -1,0 +1,34 @@
+.irisartstudio {
+    font-family: 'Ms Madi', cursive;
+}
+
+#content {
+    margin-top: 5rem;
+}
+
+.icon {
+    height:2rem;
+    width:auto;
+}
+
+$theme-colors: (
+    "primary": #005F73,
+    "secondary": #FFCD70,
+    "success": #0A9396,
+    "info": #FD905D,
+);
+
+// anchor tag customization
+$link-color:                              white;
+$link-hover-color:                        #E9D8A6;
+
+// navbar customization
+$navbar-dark-hover-color:           #E9D8A6;
+$navbar-dark-brand-hover-color:           #E9D8A6;
+// font customization
+$font-family-sans-serif:      'Montserrat', sans-serif;
+
+// navbar customization
+$navbar-brand-font-size:            2rem; // 1.25 times the base (1 rem) by default
+
+@import "../bootstrap-5.0.2/scss/bootstrap.scss";
