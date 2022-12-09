@@ -32,6 +32,7 @@
   --bs-secondary: #FFCD70;
   --bs-success: #0A9396;
   --bs-info: #FD905D;
+  --bs-warning: #fe4a49;
   --bs-font-sans-serif: "Montserrat", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
@@ -2411,6 +2412,30 @@ textarea.form-control-lg {
     background-color: #FD905D;
     border-color: #FD905D; }
 
+.btn-warning {
+  color: #000;
+  background-color: #fe4a49;
+  border-color: #fe4a49; }
+  .btn-warning:hover {
+    color: #000;
+    background-color: #fe6564;
+    border-color: #fe5c5b; }
+  .btn-check:focus + .btn-warning, .btn-warning:focus {
+    color: #000;
+    background-color: #fe6564;
+    border-color: #fe5c5b;
+    box-shadow: 0 0 0 0.25rem rgba(216, 63, 62, 0.5); }
+  .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
+    color: #000;
+    background-color: #fe6e6d;
+    border-color: #fe5c5b; }
+    .btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.25rem rgba(216, 63, 62, 0.5); }
+  .btn-warning:disabled, .btn-warning.disabled {
+    color: #000;
+    background-color: #fe4a49;
+    border-color: #fe4a49; }
+
 .btn-outline-primary {
   color: #005F73;
   border-color: #005F73; }
@@ -2485,6 +2510,25 @@ textarea.form-control-lg {
       box-shadow: 0 0 0 0.25rem rgba(253, 144, 93, 0.5); }
   .btn-outline-info:disabled, .btn-outline-info.disabled {
     color: #FD905D;
+    background-color: transparent; }
+
+.btn-outline-warning {
+  color: #fe4a49;
+  border-color: #fe4a49; }
+  .btn-outline-warning:hover {
+    color: #000;
+    background-color: #fe4a49;
+    border-color: #fe4a49; }
+  .btn-check:focus + .btn-outline-warning, .btn-outline-warning:focus {
+    box-shadow: 0 0 0 0.25rem rgba(254, 74, 73, 0.5); }
+  .btn-check:checked + .btn-outline-warning, .btn-check:active + .btn-outline-warning, .btn-outline-warning:active, .btn-outline-warning.active, .btn-outline-warning.dropdown-toggle.show {
+    color: #000;
+    background-color: #fe4a49;
+    border-color: #fe4a49; }
+    .btn-check:checked + .btn-outline-warning:focus, .btn-check:active + .btn-outline-warning:focus, .btn-outline-warning:active:focus, .btn-outline-warning.active:focus, .btn-outline-warning.dropdown-toggle.show:focus {
+      box-shadow: 0 0 0 0.25rem rgba(254, 74, 73, 0.5); }
+  .btn-outline-warning:disabled, .btn-outline-warning.disabled {
+    color: #fe4a49;
     background-color: transparent; }
 
 .btn-link {
@@ -3531,6 +3575,13 @@ textarea.form-control-lg {
   .alert-info .alert-link {
     color: #7a452d; }
 
+.alert-warning {
+  color: #982c2c;
+  background-color: #ffdbdb;
+  border-color: #ffc9c8; }
+  .alert-warning .alert-link {
+    color: #7a2323; }
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem; } }
@@ -3774,6 +3825,17 @@ textarea.form-control-lg {
     color: #fff;
     background-color: #985638;
     border-color: #985638; }
+
+.list-group-item-warning {
+  color: #982c2c;
+  background-color: #ffdbdb; }
+  .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
+    color: #982c2c;
+    background-color: #e6c5c5; }
+  .list-group-item-warning.list-group-item-action.active {
+    color: #fff;
+    background-color: #982c2c;
+    border-color: #982c2c; }
 
 .btn-close {
   box-sizing: content-box;
@@ -4562,6 +4624,11 @@ textarea.form-control-lg {
   .link-info:hover, .link-info:focus {
     color: #fda67d; }
 
+.link-warning {
+  color: #fe4a49; }
+  .link-warning:hover, .link-warning:focus {
+    color: #fe6e6d; }
+
 .ratio {
   position: relative;
   width: 100%; }
@@ -4840,6 +4907,9 @@ textarea.form-control-lg {
 
 .border-info {
   border-color: #FD905D !important; }
+
+.border-warning {
+  border-color: #fe4a49 !important; }
 
 .border-white {
   border-color: #fff !important; }
@@ -5458,6 +5528,9 @@ textarea.form-control-lg {
 .text-info {
   color: #FD905D !important; }
 
+.text-warning {
+  color: #fe4a49 !important; }
+
 .text-white {
   color: #fff !important; }
 
@@ -5487,6 +5560,9 @@ textarea.form-control-lg {
 
 .bg-info {
   background-color: #FD905D !important; }
+
+.bg-warning {
+  background-color: #fe4a49 !important; }
 
 .bg-body {
   background-color: #fff !important; }
