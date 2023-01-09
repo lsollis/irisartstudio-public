@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ms+Madi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/irisartstudio.css">
+    <title>irisartstudio</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-md bg-primary text-white navbar-dark" id="navbar-scrollspy">
+        <div class="container-fluid">
+            <a class="navbar-brand irisartstudio ms-lg-5 me-auto" href="/">irisartstudio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../#item-1">Featured Artwork</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../#item-2">Art Classes</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../#item-3">About the Artist</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#item-4">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="content">
+        <div class="container-fluid bg-success p-5 mb-4 col-md-10 col-lg-8">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="bg-white p-3 d-none d-md-block">
+                        <img class="img-fluid mb-2 d-none d-md-block" alt="miscellaneous collection of simple zentangle art" src="../static/imgs/intro_to_zen.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-6">
+                    <h2 class="text-center text-white mb-3">Login</h2>
+                    <form action="/create_customer" method="POST" class="mb-2 text-white">
+                        <div class="form-group">
+                            <label for="email" >Email:</label>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" >Password:</label>
+                            <input type="password" class="form-control mb-2" name="password">
+                        </div>
+                        <input type="submit" class="btn btn-primary align-self-center" value="Login">
+                    </form>
+                    <a href=""class="text-center">New User? Create an account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container-fluid bg-primary text-white p-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-start text-white">
+                        <h2 id="item-4">Contact me:</h2>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="https://www.instagram.com/iriskthczt/" target="_blank"><h4><i class="fa-brands fa-square-instagram icon"></i></h4></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="https://www.facebook.com/iriskmc" target="_blank"><h4><i class="fa-brands fa-square-facebook"></i></h4></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <button class="btn btn-link nav-link" id="email" onclick="copyToClipboard()" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="click to copy"><h4>iris@irisart.studio</h4></button>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="text-end col-md-6">&copy; 2022 irisartstudio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/273ab1ae4e.js" crossorigin="anonymous"></script>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

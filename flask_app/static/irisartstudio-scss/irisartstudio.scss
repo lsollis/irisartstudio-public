@@ -15,7 +15,7 @@ $theme-colors: (
     "primary": #005F73,
     "secondary": #FFCD70,
     "success": #0A9396,
-    "info": #FD905D,
+    "info": #FD7F45,
     "warning":#fe4a49,
 );
 
@@ -36,5 +36,11 @@ $font-family-sans-serif:      'Montserrat', sans-serif;
 
 // navbar customization
 $navbar-brand-font-size:            2rem; // 1.25 times the base (1 rem) by default
+
+// button customization
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           0px;
+$btn-border-radius-sm:        0px;
+$btn-border-radius-lg:        0px;
 
 @import "../bootstrap-5.0.2/scss/bootstrap.scss";
